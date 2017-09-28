@@ -1,4 +1,4 @@
-update=9/27/2017 1:10:58 PM
+update=9/28/2017 1:40:58 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=Custom Libraries/symbols
+LibName31=Custom Libraries/button
