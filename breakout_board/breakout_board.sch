@@ -941,7 +941,7 @@ M2A
 Text Label 6100 3150 0    60   ~ 0
 M1A
 Text Label 6100 3250 0    60   ~ 0
-M2B
+M1B
 $Comp
 L GND #PWR030
 U 1 1 59D03A14
