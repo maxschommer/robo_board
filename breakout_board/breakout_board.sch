@@ -567,110 +567,85 @@ F 3 "" H 2700 1000 50  0001 C CNN
 	1    2700 1000
 	1    0    0    -1  
 $EndComp
-Text Label 2250 1450 0    60   ~ 0
+Text Label 1200 2350 2    60   ~ 0
 RESET
 $Comp
 L GND #PWR017
 U 1 1 59CF76CF
-P 2700 1350
-F 0 "#PWR017" H 2700 1100 50  0001 C CNN
-F 1 "GND" H 2700 1200 50  0000 C CNN
-F 2 "" H 2700 1350 50  0001 C CNN
-F 3 "" H 2700 1350 50  0001 C CNN
-	1    2700 1350
+P 2600 1450
+F 0 "#PWR017" H 2600 1200 50  0001 C CNN
+F 1 "GND" H 2600 1300 50  0000 C CNN
+F 2 "" H 2600 1450 50  0001 C CNN
+F 3 "" H 2600 1450 50  0001 C CNN
+	1    2600 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR018
 U 1 1 59CF78DD
-P 2950 1000
-F 0 "#PWR018" H 2950 850 50  0001 C CNN
-F 1 "+5V" H 2950 1140 50  0000 C CNN
-F 2 "" H 2950 1000 50  0001 C CNN
-F 3 "" H 2950 1000 50  0001 C CNN
-	1    2950 1000
+P 2950 2250
+F 0 "#PWR018" H 2950 2100 50  0001 C CNN
+F 1 "+5V" H 2950 2390 50  0000 C CNN
+F 2 "" H 2950 2250 50  0001 C CNN
+F 3 "" H 2950 2250 50  0001 C CNN
+	1    2950 2250
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2250 1650
-NoConn ~ 2250 1750
 NoConn ~ 2550 5450
 NoConn ~ 2550 5550
-Text Label 2250 1850 0    60   ~ 0
+Text Label 2250 1650 0    60   ~ 0
 A5
-Text Label 2250 1950 0    60   ~ 0
+Text Label 2250 1750 0    60   ~ 0
 A4
-Text Label 2250 2050 0    60   ~ 0
+Text Label 2250 1850 0    60   ~ 0
 A3
-Text Label 2250 2150 0    60   ~ 0
+Text Label 2250 1950 0    60   ~ 0
 A2
-$Comp
-L CONN_01X17 J2
-U 1 1 59CF81F6
-P 2050 1850
-F 0 "J2" H 2050 2750 50  0000 C CNN
-F 1 "CONN_01X17" V 2150 1850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x14_Pitch2.54mm" H 2050 1850 50  0001 C CNN
-F 3 "" H 2050 1850 50  0001 C CNN
-	1    2050 1850
-	-1   0    0    -1  
-$EndComp
-Text Label 2250 2250 0    60   ~ 0
+Text Label 2250 2050 0    60   ~ 0
 A1
-Text Label 2250 2350 0    60   ~ 0
+Text Label 2250 2150 0    60   ~ 0
 A0
-Text Label 2250 2450 0    60   ~ 0
+Text Label 2250 1550 0    60   ~ 0
 AREF
 Text Label 2350 6500 0    60   ~ 0
 AREF
-NoConn ~ 2250 2550
-Text Label 2250 2650 0    60   ~ 0
+Text Label 2250 2350 0    60   ~ 0
 IO13*
-$Comp
-L CONN_01X17 J1
-U 1 1 59CF8E94
-P 1400 1850
-F 0 "J1" H 1400 2750 50  0000 C CNN
-F 1 "CONN_01X17" V 1500 1850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x14_Pitch2.54mm" H 1400 1850 50  0001 C CNN
-F 3 "" H 1400 1850 50  0001 C CNN
-	1    1400 1850
-	1    0    0    -1  
-$EndComp
 Text Label 1200 1050 2    60   ~ 0
 MOSI
-Text Label 1200 1150 2    60   ~ 0
+Text Label 2250 1150 0    60   ~ 0
 RXLED/SS
-Text Label 1200 1250 2    60   ~ 0
+Text Label 1200 1850 2    60   ~ 0
 D1/TX
-Text Label 1200 1350 2    60   ~ 0
-D0/RX
-Text Label 1200 1450 2    60   ~ 0
-RESET
-Text Label 1200 1650 2    60   ~ 0
-D2/SDA
 Text Label 1200 1750 2    60   ~ 0
+D0/RX
+Text Label 1200 1550 2    60   ~ 0
+RESET
+Text Label 1200 1350 2    60   ~ 0
+D2/SDA
+Text Label 1200 1450 2    60   ~ 0
 D3/SCL
-Text Label 1200 2150 2    60   ~ 0
+Text Label 2250 1350 0    60   ~ 0
 D7
-Text Label 1200 2250 2    60   ~ 0
+Text Label 1200 2050 2    60   ~ 0
 IO8
-Text Label 1200 2350 2    60   ~ 0
+Text Label 1200 2150 2    60   ~ 0
 IO9*
-Text Label 1200 2450 2    60   ~ 0
+Text Label 1200 2250 2    60   ~ 0
 IO10*
-Text Label 1200 2550 2    60   ~ 0
+Text Label 1200 1250 2    60   ~ 0
 IO11*
-Text Label 1200 2650 2    60   ~ 0
+Text Label 1200 1950 2    60   ~ 0
 IO12*
 $Comp
 L GND #PWR019
 U 1 1 59CF99F8
-P 700 1550
-F 0 "#PWR019" H 700 1300 50  0001 C CNN
-F 1 "GND" H 700 1400 50  0000 C CNN
-F 2 "" H 700 1550 50  0001 C CNN
-F 3 "" H 700 1550 50  0001 C CNN
-	1    700  1550
+P 700 1650
+F 0 "#PWR019" H 700 1400 50  0001 C CNN
+F 1 "GND" H 700 1500 50  0000 C CNN
+F 2 "" H 700 1650 50  0001 C CNN
+F 3 "" H 700 1650 50  0001 C CNN
+	1    700  1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1064,13 +1039,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 2250 8700 2350
 Wire Wire Line
-	700  1550 1200 1550
-Wire Wire Line
-	2950 1550 2950 1000
-Wire Wire Line
-	2250 1550 2950 1550
-Wire Wire Line
-	2250 1350 2700 1350
+	700  1650 1200 1650
 Wire Wire Line
 	2700 1250 2700 1000
 Wire Wire Line
@@ -1230,22 +1199,16 @@ Connection ~ 2150 4100
 Wire Wire Line
 	2150 3900 2150 4100
 Connection ~ 850  4350
-Wire Wire Line
-	1300 3900 850  3900
 Connection ~ 2350 4100
 Wire Wire Line
 	2350 3500 2350 3650
 Wire Wire Line
 	2350 4100 2350 3950
 Wire Wire Line
-	1800 4100 2550 4100
-Wire Wire Line
 	2050 4600 2200 4600
 Connection ~ 850  4600
 Wire Wire Line
 	850  4600 1650 4600
-Wire Wire Line
-	850  3900 850  4850
 Wire Wire Line
 	1000 4350 850  4350
 Wire Wire Line
@@ -1710,7 +1673,7 @@ U 1 1 59D1D857
 P 4200 1200
 F 0 "J4" H 4250 900 50  0000 C CNN
 F 1 "CONN_02x04" H 4250 1450 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm_SMD" H 4200 1200 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm_SMD" H 4200 1200 50  0001 C CNN
 F 3 "" H 4200 1200 50  0001 C CNN
 	1    4200 1200
 	1    0    0    -1  
@@ -1735,11 +1698,8 @@ Text Notes 3150 3100 0    60   ~ 0
 MICROCONTROLLER
 Text Notes 1250 700  0    60   ~ 0
 BREAKOUT HEADER PINS
-Text Label 2250 1150 0    60   ~ 0
+Text Label 1200 1150 2    60   ~ 0
 MISO
-NoConn ~ 1200 1850
-NoConn ~ 1200 1950
-NoConn ~ 1200 2050
 $Comp
 L R R10
 U 1 1 59D693C3
@@ -1779,4 +1739,59 @@ Wire Wire Line
 Wire Wire Line
 	10650 4550 10650 4100
 Connection ~ 10650 4100
+$Comp
+L Conn_01x14 J2
+U 1 1 59DD9A5A
+P 2050 1750
+F 0 "J2" H 2050 2450 50  0000 C CNN
+F 1 "Conn_01x14" H 2050 950 50  0000 C CNN
+F 2 "" H 2050 1750 50  0001 C CNN
+F 3 "" H 2050 1750 50  0001 C CNN
+	1    2050 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x14 J1
+U 1 1 59DD9BC7
+P 1400 1750
+F 0 "J1" H 1400 2450 50  0000 C CNN
+F 1 "Conn_01x14" H 1400 950 50  0000 C CNN
+F 2 "" H 1400 1750 50  0001 C CNN
+F 3 "" H 1400 1750 50  0001 C CNN
+	1    1400 1750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2950 2250 2250 2250
+Wire Wire Line
+	2250 1450 2600 1450
+Wire Wire Line
+	1900 4100 2550 4100
+Wire Wire Line
+	1900 4100 1900 3900
+Wire Wire Line
+	1900 3900 1800 3900
+Wire Wire Line
+	1300 4100 850  4100
+Wire Wire Line
+	850  4100 850  4850
+$Comp
+L Conn_01x04 J5
+U 1 1 59DE3DEA
+P 7750 2900
+F 0 "J5" H 7750 3100 50  0000 C CNN
+F 1 "Conn_01x04" H 7750 2600 50  0000 C CNN
+F 2 "" H 7750 2900 50  0001 C CNN
+F 3 "" H 7750 2900 50  0001 C CNN
+	1    7750 2900
+	1    0    0    -1  
+$EndComp
+Text Label 7550 2800 2    60   ~ 0
+M2B
+Text Label 7550 2900 2    60   ~ 0
+M2A
+Text Label 7550 3100 2    60   ~ 0
+M1A
+Text Label 7550 3000 2    60   ~ 0
+M1B
 $EndSCHEMATC
