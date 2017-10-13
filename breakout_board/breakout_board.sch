@@ -490,9 +490,9 @@ IO11*
 Text Label 4800 5000 0    60   ~ 0
 D5*
 Text Label 4800 5300 0    60   ~ 0
-SCL
+D3/SCL
 Text Label 4800 5400 0    60   ~ 0
-SDA
+D2/SDA
 Text Label 4800 5500 0    60   ~ 0
 D0/RX
 Text Label 4800 5600 0    60   ~ 0
