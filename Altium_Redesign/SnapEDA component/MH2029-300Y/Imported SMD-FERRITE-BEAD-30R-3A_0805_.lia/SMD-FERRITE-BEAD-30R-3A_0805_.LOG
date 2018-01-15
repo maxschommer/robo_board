@@ -1,0 +1,26 @@
+PCAD Importer Log
+Project : SMD-FERRITE-BEAD-30R-3A_0805_.LibPkg
+
+Section : C:\Users\arau\Documents\GitHub\robo_board\Altium_Redesign\SnapEDA component\MH2029-300Y\SMD-FERRITE-BEAD-30R-3A_0805_.lia
+    Section : PCB Library - SMD-FERRITE-BEAD-30R-3A_0805_.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token SMD-FERRITE-BEAD-470R-2A(0805) On Line 106
+            Warning - 1 : Skipping Token attachedSymbol On Line 152
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - SMD-FERRITE-BEAD-30R-3A_0805_.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 88
+            Warning - 1 : Skipping Token layerContents On Line 98
+        EndSection
+
+        Section : Generating SCH Library - SMD-FERRITE-BEAD-30R-3A_0805_.SchLib
+        EndSection
+    EndSection
+EndSection
