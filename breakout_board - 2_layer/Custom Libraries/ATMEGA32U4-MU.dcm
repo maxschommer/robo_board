@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATMEGA32U4-MU
+D MCU 8-bit ATmega AVR RISC 32KB Flash Atmel ATMEGA32U4-MU, 8bit AVR Microcontroller, 16MHz, 32 kB Flash, 44-Pin QFN
+K
+F https://componentsearchengine.com/Datasheets/2/ATMEGA32U4-MU.pdf
+$ENDCMP
+#
+#End Doc Library

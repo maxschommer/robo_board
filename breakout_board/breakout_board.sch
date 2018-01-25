@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:breakout_board-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -55,7 +56,7 @@ U 1 1 59CBDC99
 P 3700 5650
 F 0 "MICRO1" H 2750 7350 50  0000 C CNN
 F 1 "ATMEGA32U4-MU" H 4400 4150 50  0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-44-1EP_7x7mm_Pitch0.5mm" H 3700 5650 50  0001 C CIN
+F 2 "footprints:QFN-44-1EP_7x7mm_Pitch0.5mm_M" H 3700 5650 50  0001 C CIN
 F 3 "" H 4800 6750 50  0001 C CNN
 	1    3700 5650
 	1    0    0    -1  
@@ -1644,7 +1645,7 @@ NoConn ~ 5400 1200
 Text Notes 4900 800  0    60   ~ 0
 BLDC HEADER
 $Comp
-L Conn_02x04_Counter_Clockwise J4
+L Conn_02x04_Counter_Clockwise-RESCUE-breakout_board J4
 U 1 1 59D1D857
 P 4200 1200
 F 0 "J4" H 4250 900 50  0000 C CNN
@@ -1848,6 +1849,6 @@ NoConn ~ 9700 5800
 Connection ~ 10150 3050
 NoConn ~ 1300 3900
 NoConn ~ 1800 4100
-Text Notes 10225 3050 0    60   ~ 0
+Text Notes 9625 2550 0    60   ~ 0
 EN was not connected to Vref_B
 $EndSCHEMATC

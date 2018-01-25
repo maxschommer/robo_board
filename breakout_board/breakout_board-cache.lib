@@ -289,11 +289,11 @@ X Pin_14 14 -200 -700 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_02x04_Counter_Clockwise
+# Conn_02x04_Counter_Clockwise-RESCUE-breakout_board
 #
-DEF Conn_02x04_Counter_Clockwise J 0 40 Y N 1 F N
+DEF Conn_02x04_Counter_Clockwise-RESCUE-breakout_board J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "Conn_02x04_Counter_Clockwise" 50 -300 50 H V C CNN
+F1 "Conn_02x04_Counter_Clockwise-RESCUE-breakout_board" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
