@@ -1,0 +1,38 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Comments,Color
+1,,button,BTN1,CKN10291CT-ND,KMT071_NGJ_LHS,1,,,
+2,Unpolarized capacitor,C,C6 C7 C9 C10,.1uF,C_0603,4,,,
+3,Unpolarized capacitor,C,C1 C2,10pF,C_0603,2,,Value = 2*C_load - 2*C_stray,
+4,Unpolarized capacitor,C,C8 C11 C12,10uF,C_0805,3,,,
+5,Unpolarized capacitor,C,C3 C5 C13 C14 C15 C16,1uF,C_0603,6,,,
+6,Unpolarized capacitor,C,C4,"4.7uF, 16V",C_0805,1,,,
+7,"Generic connector, single row, 01x03",Conn_01x03,J4,CONN_01X03,Pin_Header_Straight_1x03_Pitch2.54mm,1,,,
+8,,Conn_02x04_Counter_Clockwise-RESCUE-breakout_board,J3,CONN_02x04,Pin_Header_Straight_2x04_Pitch2.54mm_SMD,1,,,
+9,"Generic connector, single row, 01x02",Conn_01x02,J6,Conn_01x02,Pin_Header_Straight_1x02_Pitch2.54mm,1,,,
+10,"Generic connector, single row, 01x04",Conn_01x04,J7,Conn_01x04,Pin_Header_Straight_1x04_Pitch2.54mm,1,,,
+11,"Generic connector, single row, 01x15",Conn_01x15,J1 J2,Conn_01x15,Pin_Header_Straight_1x15_Pitch2.54mm,2,,,
+12,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)",Conn_02x03_Odd_Even,J5,Conn_02x03_Odd_Even,Pin_Header_Straight_2x03_Pitch2.54mm,1,,,
+13,LED generic,LED,LED3,BLUE,LED_0805,1,,,Blue
+14,LED generic,LED,LED2,GREEN,LED_0805,1,,,Blue
+15,LED generic,LED,LED1,RED,LED_0805,1,,,Green
+16,"Four pin crystal (GND on pins 2 and 4), e.g. in SMD package",Crystal_GND24,OS1,16MHZ,XC2119CT,1,,,
+17,Resistor,R,R1,10K,R_0603,1,,,
+18,Resistor,R,R2 R3 R4,499,R_0603,3,,,
+19,,ADP3330,U3,ADP3330,SOT-23-6,1,,,
+20,,ATMEGA328P-MUR,U1,ATMEGA328P-MUR,QFN-32-1EP_5x5mm_Pitch0.5mm,1,,,
+21,,LP5907SNX-3.3/NOPB,U4,LP5907SNX-3.3/NOPB,DQN4,1,,,
+22,,TB6612FNG,U2,TB6612FNG,SOP65P760X160-24N,1,,,
+
+
+
+
+
+Component Groups:,22
+Component Count:,36
+Fitted Components:,36
+Number of PCBs:,1
+Total components:,36
+Schematic Version:,1
+Schematic Date:,2017-10-01
+BoM Date:,1/27/2018 12:25:33 AM
+Schematic Source:,C:\Users\Arpan\Documents\Ecelectronics\robo_board\breakout_board - 2_layer\breakout_board2.sch
+KiCad Version:,Eeschema 4.0.7
